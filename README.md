@@ -8,4 +8,8 @@
 
 Run the below command to generate pom.xml file:
 mvn archetype:generate  -DgroupId=in.javahome -DartifactId=pets-app -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+1. In the github create a repository named pets-app
+2. open the pom.xml location and do gitbash 
+3. follow the steps from readme file of pets-app.
 ```
