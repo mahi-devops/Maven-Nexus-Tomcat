@@ -13,3 +13,20 @@ mvn archetype:generate  -DgroupId=in.javahome -DartifactId=pets-app -DarchetypeA
 2. open the pom.xml location and do gitbash 
 3. follow the steps from readme file of pets-app.
 ```
+# Nexus
+```
+1. Create a free AWS account.
+2. Launch EC2 instance with t2 medium for Nexus.
+3. Connect to Nexus(EC2 instance) using putty or mobaexterm.
+```
+# Creating an EC2 instance for Nexus
+```
+1. select launch instance 
+2. select t2 medium for nexus
+3. Add tags - Name: nexus3
+4. Create a security group
+5. select Review and launch 
+```
+# Installing nexus on linux machine
+```
+```
