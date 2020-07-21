@@ -29,4 +29,14 @@ mvn archetype:generate  -DgroupId=in.javahome -DartifactId=pets-app -DarchetypeA
 ```
 # Installing nexus on linux machine
 ```
+    2  cd /opt/
+    3  sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+    4  sudo tar -xf latest-unix.tar.gz
+    5  ls
+    6  sudo mv nexus-3.25.0-03/ nexus3
+    7  ls
+    8  ls -l
+    9  sudo chown -R ec2-user: ec2-user nexus3/ sonatype-work
+   10  sudo chown -R ec2-user:ec2-user nexus3/ sonatype-work
+   11  ls -l
 ```
