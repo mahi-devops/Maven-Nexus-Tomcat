@@ -41,5 +41,13 @@ mvn archetype:generate  -DgroupId=in.javahome -DartifactId=pets-app -DarchetypeA
    10.  cd bin/
    11. ./nexus start
    12. ./nexus status
+```
+# To open Nexus in the browser
+```
+IPv4 Public IP:Default port of nexus
+IPv4 Public IP:8081
 
+first sigin to Nexus.
+UN: admin
+pwd: cat LINK FROM THE SIGNIN PAGE
 ```
