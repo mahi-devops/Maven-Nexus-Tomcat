@@ -51,3 +51,14 @@ first sigin to Nexus.
 UN: admin
 pwd: cat LINK FROM THE SIGNIN PAGE
 ```
+# Configure nexus as a service
+```
+    vi /opt/nexus3/bin/nexus.rc
+    run_as_user="ec2-user"
+    sudo ln -s /opt/nexus3/bin/nexus /etc/init.d/nexus
+    
+    cd /etc/init.d
+    sudo chkconfig --add nexus
+    sudo chkconfig --levels 345 nexus on
+    sudo service nexus start
+```
